@@ -1,0 +1,504 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>glfwSetMonitorUserPointer | nodegl-app</title><meta name="description" content="Documentation for nodegl-app"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container">
+<div class="table-cell" id="tsd-search" data-base="..">
+<div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
+<div class="field">
+<div id="tsd-toolbar-links"></div></div>
+<ul class="results">
+<li class="state loading">Preparing search index...</li>
+<li class="state failure">The search index is not available</li></ul><a href="../index.html" class="title">nodegl-app</a></div>
+<div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
+<div class="container container-main">
+<div class="col-content">
+<div class="tsd-page-title">
+<ul class="tsd-breadcrumb">
+<li><a href="../modules.html">nodegl-app</a></li>
+<li><a href="glfwSetMonitorUserPointer.html">glfwSetMonitorUserPointer</a></li></ul>
+<h1>Function glfwSetMonitorUserPointer</h1></div>
+<section class="tsd-panel">
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="glfwSetMonitorUserPointer"><span class="tsd-kind-call-signature">glfw<wbr/>Set<wbr/>Monitor<wbr/>User<wbr/>Pointer</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">monitor</span>, <span class="tsd-kind-parameter">pointer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#glfwSetMonitorUserPointer" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" id="icon-anchor"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path></g></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>This function sets the user pointer of the specified monitor.</p>
+<p>The user pointer is a pointer that can be set per monitor and used for various purposes, such as associating application-specific data with the monitor. The user pointer is not used by GLFW in any way.</p>
+<p>This function may be called from any thread. Access is not synchronized.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">monitor</span>: <a href="../interfaces/GLFWmonitor.html" class="tsd-signature-type tsd-kind-interface">GLFWmonitor</a></h5>
+<div class="tsd-comment tsd-typography"><p>The monitor whose pointer to set.</p>
+</div></li>
+<li>
+<h5><span class="tsd-kind-parameter">pointer</span>: <span class="tsd-signature-type">void</span></h5>
+<div class="tsd-comment tsd-typography"><p>The new value of the user pointer.</p>
+</div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+<div class="tsd-comment tsd-typography">
+<h4>See</h4><p><a href="https://www.glfw.org/docs/3.3.2/group__monitor.html#ga702750e24313a686d3637297b6e85fda">glfwSetMonitorUserPointer</a></p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in index.d.ts:306</li></ul></aside></li></ul></section></div>
+<div class="col-sidebar">
+<div class="page-menu">
+<div class="tsd-navigation settings">
+<details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)" id="icon-chevronDown"></path></svg>Settings</h3></summary>
+<div class="tsd-accordion-details">
+<div class="tsd-filter-visibility">
+<h4 class="uppercase">Member Visibility</h4><form>
+<ul id="tsd-filter-options">
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-private" name="private"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Private</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></form></div>
+<div class="tsd-theme-toggle">
+<h4 class="uppercase">Theme</h4><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div></div>
+<div class="site-menu">
+<nav class="tsd-navigation"><a href="../modules.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg><span>nodegl-<wbr/>app</span></a>
+<ul class="tsd-small-nested-navigation">
+<li><a href="../interfaces/GLFWcharfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-256"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-interface)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.51 16V15.016H11.298V8.224H9.51V7.24H14.19V8.224H12.402V15.016H14.19V16H9.51Z" fill="var(--color-text)"></path></g></svg><span>GLFWcharfun</span></a></li>
+<li><a href="../interfaces/GLFWcharmodsfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWcharmodsfun</span></a></li>
+<li><a href="../interfaces/GLFWcursor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWcursor</span></a></li>
+<li><a href="../interfaces/GLFWcursorenterfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWcursorenterfun</span></a></li>
+<li><a href="../interfaces/GLFWcursorposfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWcursorposfun</span></a></li>
+<li><a href="../interfaces/GLFWdropfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWdropfun</span></a></li>
+<li><a href="../interfaces/GLFWerrorfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWerrorfun</span></a></li>
+<li><a href="../interfaces/GLFWframebuffersizefun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWframebuffersizefun</span></a></li>
+<li><a href="../interfaces/GLFWgamepadstate.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWgamepadstate</span></a></li>
+<li><a href="../interfaces/GLFWgammaramp.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWgammaramp</span></a></li>
+<li><a href="../interfaces/GLFWglproc.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWglproc</span></a></li>
+<li><a href="../interfaces/GLFWimage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWimage</span></a></li>
+<li><a href="../interfaces/GLFWjoystickfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWjoystickfun</span></a></li>
+<li><a href="../interfaces/GLFWkeyfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWkeyfun</span></a></li>
+<li><a href="../interfaces/GLFWmonitor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWmonitor</span></a></li>
+<li><a href="../interfaces/GLFWmonitorfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWmonitorfun</span></a></li>
+<li><a href="../interfaces/GLFWmousebuttonfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWmousebuttonfun</span></a></li>
+<li><a href="../interfaces/GLFWscrollfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWscrollfun</span></a></li>
+<li><a href="../interfaces/GLFWvidmode.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWvidmode</span></a></li>
+<li><a href="../interfaces/GLFWvkproc.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWvkproc</span></a></li>
+<li><a href="../interfaces/GLFWwindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindow</span></a></li>
+<li><a href="../interfaces/GLFWwindowclosefun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowclosefun</span></a></li>
+<li><a href="../interfaces/GLFWwindowcontentscalefun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowcontentscalefun</span></a></li>
+<li><a href="../interfaces/GLFWwindowfocusfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowfocusfun</span></a></li>
+<li><a href="../interfaces/GLFWwindowiconifyfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowiconifyfun</span></a></li>
+<li><a href="../interfaces/GLFWwindowmaximizefun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowmaximizefun</span></a></li>
+<li><a href="../interfaces/GLFWwindowposfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowposfun</span></a></li>
+<li><a href="../interfaces/GLFWwindowrefreshfun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowrefreshfun</span></a></li>
+<li><a href="../interfaces/GLFWwindowsizefun.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>GLFWwindowsizefun</span></a></li>
+<li><a href="../variables/GLFW_ACCUM_ALPHA_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-32"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-variable)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M11.106 16L8.85 7.24H9.966L11.454 13.192C11.558 13.608 11.646 13.996 11.718 14.356C11.79 14.708 11.842 14.976 11.874 15.16C11.906 14.976 11.954 14.708 12.018 14.356C12.09 13.996 12.178 13.608 12.282 13.192L13.758 7.24H14.85L12.582 16H11.106Z" fill="var(--color-text)"></path></g></svg><span>GLFW_<wbr/>ACCUM_<wbr/>ALPHA_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_ACCUM_BLUE_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>ACCUM_<wbr/>BLUE_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_ACCUM_GREEN_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>ACCUM_<wbr/>GREEN_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_ACCUM_RED_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>ACCUM_<wbr/>RED_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_ALPHA_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>ALPHA_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_ANY_RELEASE_BEHAVIOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>ANY_<wbr/>RELEASE_<wbr/>BEHAVIOR</span></a></li>
+<li><a href="../variables/GLFW_API_UNAVAILABLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>API_<wbr/>UNAVAILABLE</span></a></li>
+<li><a href="../variables/GLFW_ARROW_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>ARROW_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_AUTO_ICONIFY.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>AUTO_<wbr/>ICONIFY</span></a></li>
+<li><a href="../variables/GLFW_AUX_BUFFERS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>AUX_<wbr/>BUFFERS</span></a></li>
+<li><a href="../variables/GLFW_BLUE_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>BLUE_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_CENTER_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CENTER_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_CLIENT_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CLIENT_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_COCOA_CHDIR_RESOURCES.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>COCOA_<wbr/>CHDIR_<wbr/>RESOURCES</span></a></li>
+<li><a href="../variables/GLFW_COCOA_FRAME_NAME.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>COCOA_<wbr/>FRAME_<wbr/>NAME</span></a></li>
+<li><a href="../variables/GLFW_COCOA_GRAPHICS_SWITCHING.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>COCOA_<wbr/>GRAPHICS_<wbr/>SWITCHING</span></a></li>
+<li><a href="../variables/GLFW_COCOA_MENUBAR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>COCOA_<wbr/>MENUBAR</span></a></li>
+<li><a href="../variables/GLFW_COCOA_RETINA_FRAMEBUFFER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>COCOA_<wbr/>RETINA_<wbr/>FRAMEBUFFER</span></a></li>
+<li><a href="../variables/GLFW_CONNECTED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONNECTED</span></a></li>
+<li><a href="../variables/GLFW_CONTEXT_CREATION_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONTEXT_<wbr/>CREATION_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_CONTEXT_NO_ERROR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONTEXT_<wbr/>NO_<wbr/>ERROR</span></a></li>
+<li><a href="../variables/GLFW_CONTEXT_RELEASE_BEHAVIOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONTEXT_<wbr/>RELEASE_<wbr/>BEHAVIOR</span></a></li>
+<li><a href="../variables/GLFW_CONTEXT_REVISION.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONTEXT_<wbr/>REVISION</span></a></li>
+<li><a href="../variables/GLFW_CONTEXT_ROBUSTNESS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONTEXT_<wbr/>ROBUSTNESS</span></a></li>
+<li><a href="../variables/GLFW_CONTEXT_VERSION_MAJOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONTEXT_<wbr/>VERSION_<wbr/>MAJOR</span></a></li>
+<li><a href="../variables/GLFW_CONTEXT_VERSION_MINOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CONTEXT_<wbr/>VERSION_<wbr/>MINOR</span></a></li>
+<li><a href="../variables/GLFW_CROSSHAIR_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CROSSHAIR_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_CURSOR_DISABLED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CURSOR_<wbr/>DISABLED</span></a></li>
+<li><a href="../variables/GLFW_CURSOR_HIDDEN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CURSOR_<wbr/>HIDDEN</span></a></li>
+<li><a href="../variables/GLFW_CURSOR_NORMAL.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>CURSOR_<wbr/>NORMAL</span></a></li>
+<li><a href="../variables/GLFW_DECORATED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>DECORATED</span></a></li>
+<li><a href="../variables/GLFW_DEPTH_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>DEPTH_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_DISCONNECTED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>DISCONNECTED</span></a></li>
+<li><a href="../variables/GLFW_DONT_CARE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>DONT_<wbr/>CARE</span></a></li>
+<li><a href="../variables/GLFW_DOUBLEBUFFER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>DOUBLEBUFFER</span></a></li>
+<li><a href="../variables/GLFW_EGL_CONTEXT_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>EGL_<wbr/>CONTEXT_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_FALSE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>FALSE</span></a></li>
+<li><a href="../variables/GLFW_FLOATING.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>FLOATING</span></a></li>
+<li><a href="../variables/GLFW_FOCUSED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>FOCUSED</span></a></li>
+<li><a href="../variables/GLFW_FOCUS_ON_SHOW.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>FOCUS_<wbr/>ON_<wbr/>SHOW</span></a></li>
+<li><a href="../variables/GLFW_FORMAT_UNAVAILABLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>FORMAT_<wbr/>UNAVAILABLE</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_AXIS_LAST.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>AXIS_<wbr/>LAST</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_AXIS_LEFT_TRIGGER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>AXIS_<wbr/>LEFT_<wbr/>TRIGGER</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_AXIS_LEFT_X.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>AXIS_<wbr/>LEFT_<wbr/>X</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_AXIS_LEFT_Y.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>AXIS_<wbr/>LEFT_<wbr/>Y</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_AXIS_RIGHT_TRIGGER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>AXIS_<wbr/>RIGHT_<wbr/>TRIGGER</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_AXIS_RIGHT_X.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>AXIS_<wbr/>RIGHT_<wbr/>X</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_AXIS_RIGHT_Y.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>AXIS_<wbr/>RIGHT_<wbr/>Y</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_A.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>A</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_B.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>B</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_BACK.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>BACK</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_CIRCLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>CIRCLE</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_CROSS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>CROSS</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_DPAD_DOWN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>DPAD_<wbr/>DOWN</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_DPAD_LEFT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>DPAD_<wbr/>LEFT</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_DPAD_RIGHT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>DPAD_<wbr/>RIGHT</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_DPAD_UP.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>DPAD_<wbr/>UP</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_GUIDE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>GUIDE</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_LAST.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>LAST</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_LEFT_BUMPER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>LEFT_<wbr/>BUMPER</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_LEFT_THUMB.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>LEFT_<wbr/>THUMB</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>RIGHT_<wbr/>BUMPER</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_RIGHT_THUMB.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>RIGHT_<wbr/>THUMB</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_SQUARE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>SQUARE</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_START.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>START</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_TRIANGLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>TRIANGLE</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_X.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>X</span></a></li>
+<li><a href="../variables/GLFW_GAMEPAD_BUTTON_Y.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GAMEPAD_<wbr/>BUTTON_<wbr/>Y</span></a></li>
+<li><a href="../variables/GLFW_GREEN_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>GREEN_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_HAND_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAND_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_HAT_CENTERED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>CENTERED</span></a></li>
+<li><a href="../variables/GLFW_HAT_DOWN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>DOWN</span></a></li>
+<li><a href="../variables/GLFW_HAT_LEFT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>LEFT</span></a></li>
+<li><a href="../variables/GLFW_HAT_LEFT_DOWN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>LEFT_<wbr/>DOWN</span></a></li>
+<li><a href="../variables/GLFW_HAT_LEFT_UP.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>LEFT_<wbr/>UP</span></a></li>
+<li><a href="../variables/GLFW_HAT_RIGHT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>RIGHT</span></a></li>
+<li><a href="../variables/GLFW_HAT_RIGHT_DOWN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>RIGHT_<wbr/>DOWN</span></a></li>
+<li><a href="../variables/GLFW_HAT_RIGHT_UP.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>RIGHT_<wbr/>UP</span></a></li>
+<li><a href="../variables/GLFW_HAT_UP.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HAT_<wbr/>UP</span></a></li>
+<li><a href="../variables/GLFW_HOVERED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HOVERED</span></a></li>
+<li><a href="../variables/GLFW_HRESIZE_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>HRESIZE_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_IBEAM_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>IBEAM_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_ICONIFIED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>ICONIFIED</span></a></li>
+<li><a href="../variables/GLFW_INVALID_ENUM.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>INVALID_<wbr/>ENUM</span></a></li>
+<li><a href="../variables/GLFW_INVALID_VALUE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>INVALID_<wbr/>VALUE</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_1.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>1</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_10.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>10</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_11.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>11</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_12.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>12</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_13.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>13</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_14.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>14</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_15.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>15</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_16.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>16</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_2.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>2</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_3.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>3</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_4.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>4</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_5.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>5</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_6.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>6</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_7.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>7</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_8.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>8</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_9.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>9</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_HAT_BUTTONS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>HAT_<wbr/>BUTTONS</span></a></li>
+<li><a href="../variables/GLFW_JOYSTICK_LAST.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>JOYSTICK_<wbr/>LAST</span></a></li>
+<li><a href="../variables/GLFW_KEY_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>0</span></a></li>
+<li><a href="../variables/GLFW_KEY_1.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>1</span></a></li>
+<li><a href="../variables/GLFW_KEY_2.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>2</span></a></li>
+<li><a href="../variables/GLFW_KEY_3.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>3</span></a></li>
+<li><a href="../variables/GLFW_KEY_4.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>4</span></a></li>
+<li><a href="../variables/GLFW_KEY_5.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>5</span></a></li>
+<li><a href="../variables/GLFW_KEY_6.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>6</span></a></li>
+<li><a href="../variables/GLFW_KEY_7.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>7</span></a></li>
+<li><a href="../variables/GLFW_KEY_8.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>8</span></a></li>
+<li><a href="../variables/GLFW_KEY_9.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>9</span></a></li>
+<li><a href="../variables/GLFW_KEY_A.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>A</span></a></li>
+<li><a href="../variables/GLFW_KEY_APOSTROPHE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>APOSTROPHE</span></a></li>
+<li><a href="../variables/GLFW_KEY_B.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>B</span></a></li>
+<li><a href="../variables/GLFW_KEY_BACKSLASH.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>BACKSLASH</span></a></li>
+<li><a href="../variables/GLFW_KEY_BACKSPACE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>BACKSPACE</span></a></li>
+<li><a href="../variables/GLFW_KEY_C.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>C</span></a></li>
+<li><a href="../variables/GLFW_KEY_CAPS_LOCK.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>CAPS_<wbr/>LOCK</span></a></li>
+<li><a href="../variables/GLFW_KEY_D.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>D</span></a></li>
+<li><a href="../variables/GLFW_KEY_DELETE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>DELETE</span></a></li>
+<li><a href="../variables/GLFW_KEY_DOWN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>DOWN</span></a></li>
+<li><a href="../variables/GLFW_KEY_E.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>E</span></a></li>
+<li><a href="../variables/GLFW_KEY_END.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>END</span></a></li>
+<li><a href="../variables/GLFW_KEY_ENTER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>ENTER</span></a></li>
+<li><a href="../variables/GLFW_KEY_EQUAL.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>EQUAL</span></a></li>
+<li><a href="../variables/GLFW_KEY_ESCAPE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>ESCAPE</span></a></li>
+<li><a href="../variables/GLFW_KEY_F.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F</span></a></li>
+<li><a href="../variables/GLFW_KEY_F1.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F1</span></a></li>
+<li><a href="../variables/GLFW_KEY_F10.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F10</span></a></li>
+<li><a href="../variables/GLFW_KEY_F11.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F11</span></a></li>
+<li><a href="../variables/GLFW_KEY_F12.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F12</span></a></li>
+<li><a href="../variables/GLFW_KEY_F13.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F13</span></a></li>
+<li><a href="../variables/GLFW_KEY_F14.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F14</span></a></li>
+<li><a href="../variables/GLFW_KEY_F15.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F15</span></a></li>
+<li><a href="../variables/GLFW_KEY_F16.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F16</span></a></li>
+<li><a href="../variables/GLFW_KEY_F17.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F17</span></a></li>
+<li><a href="../variables/GLFW_KEY_F18.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F18</span></a></li>
+<li><a href="../variables/GLFW_KEY_F19.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F19</span></a></li>
+<li><a href="../variables/GLFW_KEY_F2.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F2</span></a></li>
+<li><a href="../variables/GLFW_KEY_F20.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F20</span></a></li>
+<li><a href="../variables/GLFW_KEY_F21.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F21</span></a></li>
+<li><a href="../variables/GLFW_KEY_F22.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F22</span></a></li>
+<li><a href="../variables/GLFW_KEY_F23.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F23</span></a></li>
+<li><a href="../variables/GLFW_KEY_F24.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F24</span></a></li>
+<li><a href="../variables/GLFW_KEY_F25.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F25</span></a></li>
+<li><a href="../variables/GLFW_KEY_F3.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F3</span></a></li>
+<li><a href="../variables/GLFW_KEY_F4.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F4</span></a></li>
+<li><a href="../variables/GLFW_KEY_F5.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F5</span></a></li>
+<li><a href="../variables/GLFW_KEY_F6.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F6</span></a></li>
+<li><a href="../variables/GLFW_KEY_F7.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F7</span></a></li>
+<li><a href="../variables/GLFW_KEY_F8.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F8</span></a></li>
+<li><a href="../variables/GLFW_KEY_F9.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>F9</span></a></li>
+<li><a href="../variables/GLFW_KEY_G.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>G</span></a></li>
+<li><a href="../variables/GLFW_KEY_GRAVE_ACCENT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>GRAVE_<wbr/>ACCENT</span></a></li>
+<li><a href="../variables/GLFW_KEY_H.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>H</span></a></li>
+<li><a href="../variables/GLFW_KEY_HOME.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>HOME</span></a></li>
+<li><a href="../variables/GLFW_KEY_I.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>I</span></a></li>
+<li><a href="../variables/GLFW_KEY_INSERT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>INSERT</span></a></li>
+<li><a href="../variables/GLFW_KEY_J.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>J</span></a></li>
+<li><a href="../variables/GLFW_KEY_K.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>K</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>0</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_1.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>1</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_2.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>2</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_3.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>3</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_4.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>4</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_5.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>5</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_6.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>6</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_7.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>7</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_8.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>8</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_9.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>9</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_ADD.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>ADD</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_DECIMAL.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>DECIMAL</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_DIVIDE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>DIVIDE</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_ENTER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>ENTER</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_EQUAL.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>EQUAL</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_MULTIPLY.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>MULTIPLY</span></a></li>
+<li><a href="../variables/GLFW_KEY_KP_SUBTRACT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>KP_<wbr/>SUBTRACT</span></a></li>
+<li><a href="../variables/GLFW_KEY_L.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>L</span></a></li>
+<li><a href="../variables/GLFW_KEY_LAST.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>LAST</span></a></li>
+<li><a href="../variables/GLFW_KEY_LEFT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>LEFT</span></a></li>
+<li><a href="../variables/GLFW_KEY_LEFT_ALT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>LEFT_<wbr/>ALT</span></a></li>
+<li><a href="../variables/GLFW_KEY_LEFT_BRACKET.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>LEFT_<wbr/>BRACKET</span></a></li>
+<li><a href="../variables/GLFW_KEY_LEFT_CONTROL.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>LEFT_<wbr/>CONTROL</span></a></li>
+<li><a href="../variables/GLFW_KEY_LEFT_SHIFT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>LEFT_<wbr/>SHIFT</span></a></li>
+<li><a href="../variables/GLFW_KEY_LEFT_SUPER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>LEFT_<wbr/>SUPER</span></a></li>
+<li><a href="../variables/GLFW_KEY_M.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>M</span></a></li>
+<li><a href="../variables/GLFW_KEY_MENU.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>MENU</span></a></li>
+<li><a href="../variables/GLFW_KEY_MINUS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>MINUS</span></a></li>
+<li><a href="../variables/GLFW_KEY_N.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>N</span></a></li>
+<li><a href="../variables/GLFW_KEY_NUM_LOCK.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>NUM_<wbr/>LOCK</span></a></li>
+<li><a href="../variables/GLFW_KEY_O.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>O</span></a></li>
+<li><a href="../variables/GLFW_KEY_P.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>P</span></a></li>
+<li><a href="../variables/GLFW_KEY_PAGE_DOWN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>PAGE_<wbr/>DOWN</span></a></li>
+<li><a href="../variables/GLFW_KEY_PAGE_UP.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>PAGE_<wbr/>UP</span></a></li>
+<li><a href="../variables/GLFW_KEY_PAUSE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>PAUSE</span></a></li>
+<li><a href="../variables/GLFW_KEY_PERIOD.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>PERIOD</span></a></li>
+<li><a href="../variables/GLFW_KEY_PRINT_SCREEN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>PRINT_<wbr/>SCREEN</span></a></li>
+<li><a href="../variables/GLFW_KEY_Q.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>Q</span></a></li>
+<li><a href="../variables/GLFW_KEY_R.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>R</span></a></li>
+<li><a href="../variables/GLFW_KEY_RIGHT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>RIGHT</span></a></li>
+<li><a href="../variables/GLFW_KEY_RIGHT_ALT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>RIGHT_<wbr/>ALT</span></a></li>
+<li><a href="../variables/GLFW_KEY_RIGHT_BRACKET.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>RIGHT_<wbr/>BRACKET</span></a></li>
+<li><a href="../variables/GLFW_KEY_RIGHT_CONTROL.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>RIGHT_<wbr/>CONTROL</span></a></li>
+<li><a href="../variables/GLFW_KEY_RIGHT_SHIFT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>RIGHT_<wbr/>SHIFT</span></a></li>
+<li><a href="../variables/GLFW_KEY_RIGHT_SUPER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>RIGHT_<wbr/>SUPER</span></a></li>
+<li><a href="../variables/GLFW_KEY_S.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>S</span></a></li>
+<li><a href="../variables/GLFW_KEY_SCROLL_LOCK.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>SCROLL_<wbr/>LOCK</span></a></li>
+<li><a href="../variables/GLFW_KEY_SEMICOLON.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>SEMICOLON</span></a></li>
+<li><a href="../variables/GLFW_KEY_SLASH.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>SLASH</span></a></li>
+<li><a href="../variables/GLFW_KEY_SPACE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>SPACE</span></a></li>
+<li><a href="../variables/GLFW_KEY_T.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>T</span></a></li>
+<li><a href="../variables/GLFW_KEY_TAB.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>TAB</span></a></li>
+<li><a href="../variables/GLFW_KEY_U.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>U</span></a></li>
+<li><a href="../variables/GLFW_KEY_UNKNOWN.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>UNKNOWN</span></a></li>
+<li><a href="../variables/GLFW_KEY_UP.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>UP</span></a></li>
+<li><a href="../variables/GLFW_KEY_V.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>V</span></a></li>
+<li><a href="../variables/GLFW_KEY_W.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>W</span></a></li>
+<li><a href="../variables/GLFW_KEY_WORLD_1.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>WORLD_<wbr/>1</span></a></li>
+<li><a href="../variables/GLFW_KEY_WORLD_2.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>WORLD_<wbr/>2</span></a></li>
+<li><a href="../variables/GLFW_KEY_X.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>X</span></a></li>
+<li><a href="../variables/GLFW_KEY_Y.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>Y</span></a></li>
+<li><a href="../variables/GLFW_KEY_Z.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>KEY_<wbr/>Z</span></a></li>
+<li><a href="../variables/GLFW_LOCK_KEY_MODS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>LOCK_<wbr/>KEY_<wbr/>MODS</span></a></li>
+<li><a href="../variables/GLFW_LOSE_CONTEXT_ON_RESET.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>LOSE_<wbr/>CONTEXT_<wbr/>ON_<wbr/>RESET</span></a></li>
+<li><a href="../variables/GLFW_MAXIMIZED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MAXIMIZED</span></a></li>
+<li><a href="../variables/GLFW_MOD_ALT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOD_<wbr/>ALT</span></a></li>
+<li><a href="../variables/GLFW_MOD_CAPS_LOCK.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOD_<wbr/>CAPS_<wbr/>LOCK</span></a></li>
+<li><a href="../variables/GLFW_MOD_CONTROL.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOD_<wbr/>CONTROL</span></a></li>
+<li><a href="../variables/GLFW_MOD_NUM_LOCK.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOD_<wbr/>NUM_<wbr/>LOCK</span></a></li>
+<li><a href="../variables/GLFW_MOD_SHIFT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOD_<wbr/>SHIFT</span></a></li>
+<li><a href="../variables/GLFW_MOD_SUPER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOD_<wbr/>SUPER</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_1.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>1</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_2.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>2</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_3.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>3</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_4.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>4</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_5.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>5</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_6.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>6</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_7.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>7</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_8.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>8</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_LAST.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>LAST</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_LEFT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>LEFT</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_MIDDLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>MIDDLE</span></a></li>
+<li><a href="../variables/GLFW_MOUSE_BUTTON_RIGHT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>MOUSE_<wbr/>BUTTON_<wbr/>RIGHT</span></a></li>
+<li><a href="../variables/GLFW_NATIVE_CONTEXT_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NATIVE_<wbr/>CONTEXT_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_NOT_INITIALIZED.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NOT_<wbr/>INITIALIZED</span></a></li>
+<li><a href="../variables/GLFW_NO_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NO_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_NO_CURRENT_CONTEXT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NO_<wbr/>CURRENT_<wbr/>CONTEXT</span></a></li>
+<li><a href="../variables/GLFW_NO_ERROR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NO_<wbr/>ERROR</span></a></li>
+<li><a href="../variables/GLFW_NO_RESET_NOTIFICATION.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NO_<wbr/>RESET_<wbr/>NOTIFICATION</span></a></li>
+<li><a href="../variables/GLFW_NO_ROBUSTNESS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NO_<wbr/>ROBUSTNESS</span></a></li>
+<li><a href="../variables/GLFW_NO_WINDOW_CONTEXT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>NO_<wbr/>WINDOW_<wbr/>CONTEXT</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_ANY_PROFILE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>ANY_<wbr/>PROFILE</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_COMPAT_PROFILE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>COMPAT_<wbr/>PROFILE</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_CORE_PROFILE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>CORE_<wbr/>PROFILE</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_DEBUG_CONTEXT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>DEBUG_<wbr/>CONTEXT</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_ES_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>ES_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_FORWARD_COMPAT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>FORWARD_<wbr/>COMPAT</span></a></li>
+<li><a href="../variables/GLFW_OPENGL_PROFILE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OPENGL_<wbr/>PROFILE</span></a></li>
+<li><a href="../variables/GLFW_OSMESA_CONTEXT_API.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OSMESA_<wbr/>CONTEXT_<wbr/>API</span></a></li>
+<li><a href="../variables/GLFW_OUT_OF_MEMORY.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>OUT_<wbr/>OF_<wbr/>MEMORY</span></a></li>
+<li><a href="../variables/GLFW_PLATFORM_ERROR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>PLATFORM_<wbr/>ERROR</span></a></li>
+<li><a href="../variables/GLFW_PRESS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>PRESS</span></a></li>
+<li><a href="../variables/GLFW_RAW_MOUSE_MOTION.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>RAW_<wbr/>MOUSE_<wbr/>MOTION</span></a></li>
+<li><a href="../variables/GLFW_RED_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>RED_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_REFRESH_RATE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>REFRESH_<wbr/>RATE</span></a></li>
+<li><a href="../variables/GLFW_RELEASE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>RELEASE</span></a></li>
+<li><a href="../variables/GLFW_RELEASE_BEHAVIOR_FLUSH.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>RELEASE_<wbr/>BEHAVIOR_<wbr/>FLUSH</span></a></li>
+<li><a href="../variables/GLFW_RELEASE_BEHAVIOR_NONE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>RELEASE_<wbr/>BEHAVIOR_<wbr/>NONE</span></a></li>
+<li><a href="../variables/GLFW_REPEAT.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>REPEAT</span></a></li>
+<li><a href="../variables/GLFW_RESIZABLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>RESIZABLE</span></a></li>
+<li><a href="../variables/GLFW_SAMPLES.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>SAMPLES</span></a></li>
+<li><a href="../variables/GLFW_SCALE_TO_MONITOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>SCALE_<wbr/>TO_<wbr/>MONITOR</span></a></li>
+<li><a href="../variables/GLFW_SRGB_CAPABLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>SRGB_<wbr/>CAPABLE</span></a></li>
+<li><a href="../variables/GLFW_STENCIL_BITS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>STENCIL_<wbr/>BITS</span></a></li>
+<li><a href="../variables/GLFW_STEREO.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>STEREO</span></a></li>
+<li><a href="../variables/GLFW_STICKY_KEYS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>STICKY_<wbr/>KEYS</span></a></li>
+<li><a href="../variables/GLFW_STICKY_MOUSE_BUTTONS.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>STICKY_<wbr/>MOUSE_<wbr/>BUTTONS</span></a></li>
+<li><a href="../variables/GLFW_TRANSPARENT_FRAMEBUFFER.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>TRANSPARENT_<wbr/>FRAMEBUFFER</span></a></li>
+<li><a href="../variables/GLFW_TRUE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>TRUE</span></a></li>
+<li><a href="../variables/GLFW_VERSION_MAJOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>VERSION_<wbr/>MAJOR</span></a></li>
+<li><a href="../variables/GLFW_VERSION_MINOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>VERSION_<wbr/>MINOR</span></a></li>
+<li><a href="../variables/GLFW_VERSION_REVISION.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>VERSION_<wbr/>REVISION</span></a></li>
+<li><a href="../variables/GLFW_VERSION_UNAVAILABLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>VERSION_<wbr/>UNAVAILABLE</span></a></li>
+<li><a href="../variables/GLFW_VISIBLE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>VISIBLE</span></a></li>
+<li><a href="../variables/GLFW_VRESIZE_CURSOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>VRESIZE_<wbr/>CURSOR</span></a></li>
+<li><a href="../variables/GLFW_X11_CLASS_NAME.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>X11_<wbr/>CLASS_<wbr/>NAME</span></a></li>
+<li><a href="../variables/GLFW_X11_INSTANCE_NAME.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GLFW_<wbr/>X11_<wbr/>INSTANCE_<wbr/>NAME</span></a></li>
+<li><a href="../variables/GL_FALSE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GL_<wbr/>FALSE</span></a></li>
+<li><a href="../variables/GL_RGBA8.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GL_<wbr/>RGBA8</span></a></li>
+<li><a href="../variables/GL_TRUE.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-32"></use></svg><span>GL_<wbr/>TRUE</span></a></li>
+<li><a href="getAddress.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-64"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-function)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.39 16V7.24H14.55V8.224H10.446V11.128H14.238V12.112H10.47V16H9.39Z" fill="var(--color-text)"></path></g></svg><span>get<wbr/>Address</span></a></li>
+<li><a href="getMemory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>get<wbr/>Memory</span></a></li>
+<li><a href="glfwCreateCursor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Create<wbr/>Cursor</span></a></li>
+<li><a href="glfwCreateStandardCursor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Create<wbr/>Standard<wbr/>Cursor</span></a></li>
+<li><a href="glfwCreateWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Create<wbr/>Window</span></a></li>
+<li><a href="glfwDefaultWindowHints.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Default<wbr/>Window<wbr/>Hints</span></a></li>
+<li><a href="glfwDestroyCursor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Destroy<wbr/>Cursor</span></a></li>
+<li><a href="glfwDestroyWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Destroy<wbr/>Window</span></a></li>
+<li><a href="glfwExtensionSupported.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Extension<wbr/>Supported</span></a></li>
+<li><a href="glfwFocusWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Focus<wbr/>Window</span></a></li>
+<li><a href="glfwGetClipboardString.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Clipboard<wbr/>String</span></a></li>
+<li><a href="glfwGetCurrentContext.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Current<wbr/>Context</span></a></li>
+<li><a href="glfwGetCursorPos.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Cursor<wbr/>Pos</span></a></li>
+<li><a href="glfwGetError.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Error</span></a></li>
+<li><a href="glfwGetFramebufferSize.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Framebuffer<wbr/>Size</span></a></li>
+<li><a href="glfwGetGamepadName.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Gamepad<wbr/>Name</span></a></li>
+<li><a href="glfwGetGamepadState.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Gamepad<wbr/>State</span></a></li>
+<li><a href="glfwGetGammaRamp.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Gamma<wbr/>Ramp</span></a></li>
+<li><a href="glfwGetInputMode.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Input<wbr/>Mode</span></a></li>
+<li><a href="glfwGetJoystickAxes.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Joystick<wbr/>Axes</span></a></li>
+<li><a href="glfwGetJoystickButtons.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Joystick<wbr/>Buttons</span></a></li>
+<li><a href="glfwGetJoystickGUID.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>JoystickGUID</span></a></li>
+<li><a href="glfwGetJoystickHats.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Joystick<wbr/>Hats</span></a></li>
+<li><a href="glfwGetJoystickName.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Joystick<wbr/>Name</span></a></li>
+<li><a href="glfwGetJoystickUserPointer.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Joystick<wbr/>User<wbr/>Pointer</span></a></li>
+<li><a href="glfwGetKey.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Key</span></a></li>
+<li><a href="glfwGetKeyName.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Key<wbr/>Name</span></a></li>
+<li><a href="glfwGetKeyScancode.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Key<wbr/>Scancode</span></a></li>
+<li><a href="glfwGetMonitorContentScale.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Monitor<wbr/>Content<wbr/>Scale</span></a></li>
+<li><a href="glfwGetMonitorName.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Monitor<wbr/>Name</span></a></li>
+<li><a href="glfwGetMonitorPhysicalSize.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Monitor<wbr/>Physical<wbr/>Size</span></a></li>
+<li><a href="glfwGetMonitorPos.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Monitor<wbr/>Pos</span></a></li>
+<li><a href="glfwGetMonitorUserPointer.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Monitor<wbr/>User<wbr/>Pointer</span></a></li>
+<li><a href="glfwGetMonitorWorkarea.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Monitor<wbr/>Workarea</span></a></li>
+<li><a href="glfwGetMonitors.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Monitors</span></a></li>
+<li><a href="glfwGetMouseButton.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Mouse<wbr/>Button</span></a></li>
+<li><a href="glfwGetPrimaryMonitor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Primary<wbr/>Monitor</span></a></li>
+<li><a href="glfwGetProcAddress.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Proc<wbr/>Address</span></a></li>
+<li><a href="glfwGetRequiredInstanceExtensions.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Required<wbr/>Instance<wbr/>Extensions</span></a></li>
+<li><a href="glfwGetTime.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Time</span></a></li>
+<li><a href="glfwGetTimerFrequency.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Timer<wbr/>Frequency</span></a></li>
+<li><a href="glfwGetTimerValue.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Timer<wbr/>Value</span></a></li>
+<li><a href="glfwGetVersion.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Version</span></a></li>
+<li><a href="glfwGetVersionString.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Version<wbr/>String</span></a></li>
+<li><a href="glfwGetVideoMode.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Video<wbr/>Mode</span></a></li>
+<li><a href="glfwGetVideoModes.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Video<wbr/>Modes</span></a></li>
+<li><a href="glfwGetWindowAttrib.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>Attrib</span></a></li>
+<li><a href="glfwGetWindowContentScale.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>Content<wbr/>Scale</span></a></li>
+<li><a href="glfwGetWindowFrameSize.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>Frame<wbr/>Size</span></a></li>
+<li><a href="glfwGetWindowMonitor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>Monitor</span></a></li>
+<li><a href="glfwGetWindowOpacity.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>Opacity</span></a></li>
+<li><a href="glfwGetWindowPos.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>Pos</span></a></li>
+<li><a href="glfwGetWindowSize.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>Size</span></a></li>
+<li><a href="glfwGetWindowUserPointer.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Get<wbr/>Window<wbr/>User<wbr/>Pointer</span></a></li>
+<li><a href="glfwHideWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Hide<wbr/>Window</span></a></li>
+<li><a href="glfwIconifyWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Iconify<wbr/>Window</span></a></li>
+<li><a href="glfwInit.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Init</span></a></li>
+<li><a href="glfwInitHint.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Init<wbr/>Hint</span></a></li>
+<li><a href="glfwJoystickIsGamepad.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Joystick<wbr/>Is<wbr/>Gamepad</span></a></li>
+<li><a href="glfwJoystickPresent.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Joystick<wbr/>Present</span></a></li>
+<li><a href="glfwMakeContextCurrent.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Make<wbr/>Context<wbr/>Current</span></a></li>
+<li><a href="glfwMaximizeWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Maximize<wbr/>Window</span></a></li>
+<li><a href="glfwPollEvents.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Poll<wbr/>Events</span></a></li>
+<li><a href="glfwPostEmptyEvent.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Post<wbr/>Empty<wbr/>Event</span></a></li>
+<li><a href="glfwRawMouseMotionSupported.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Raw<wbr/>Mouse<wbr/>Motion<wbr/>Supported</span></a></li>
+<li><a href="glfwRequestWindowAttention.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Request<wbr/>Window<wbr/>Attention</span></a></li>
+<li><a href="glfwRestoreWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Restore<wbr/>Window</span></a></li>
+<li><a href="glfwSetCharCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Char<wbr/>Callback</span></a></li>
+<li><a href="glfwSetCharModsCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Char<wbr/>Mods<wbr/>Callback</span></a></li>
+<li><a href="glfwSetClipboardString.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Clipboard<wbr/>String</span></a></li>
+<li><a href="glfwSetCursor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Cursor</span></a></li>
+<li><a href="glfwSetCursorEnterCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Cursor<wbr/>Enter<wbr/>Callback</span></a></li>
+<li><a href="glfwSetCursorPos.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Cursor<wbr/>Pos</span></a></li>
+<li><a href="glfwSetCursorPosCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Cursor<wbr/>Pos<wbr/>Callback</span></a></li>
+<li><a href="glfwSetDropCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Drop<wbr/>Callback</span></a></li>
+<li><a href="glfwSetErrorCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Error<wbr/>Callback</span></a></li>
+<li><a href="glfwSetFramebufferSizeCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Framebuffer<wbr/>Size<wbr/>Callback</span></a></li>
+<li><a href="glfwSetGamma.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Gamma</span></a></li>
+<li><a href="glfwSetGammaRamp.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Gamma<wbr/>Ramp</span></a></li>
+<li><a href="glfwSetInputMode.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Input<wbr/>Mode</span></a></li>
+<li><a href="glfwSetJoystickCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Joystick<wbr/>Callback</span></a></li>
+<li><a href="glfwSetJoystickUserPointer.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Joystick<wbr/>User<wbr/>Pointer</span></a></li>
+<li><a href="glfwSetKeyCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Key<wbr/>Callback</span></a></li>
+<li><a href="glfwSetMonitorCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Monitor<wbr/>Callback</span></a></li>
+<li><a href="glfwSetMonitorUserPointer.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Monitor<wbr/>User<wbr/>Pointer</span></a></li>
+<li><a href="glfwSetMouseButtonCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Mouse<wbr/>Button<wbr/>Callback</span></a></li>
+<li><a href="glfwSetScrollCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Scroll<wbr/>Callback</span></a></li>
+<li><a href="glfwSetTime.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Time</span></a></li>
+<li><a href="glfwSetWindowAspectRatio.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Aspect<wbr/>Ratio</span></a></li>
+<li><a href="glfwSetWindowAttrib.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Attrib</span></a></li>
+<li><a href="glfwSetWindowCloseCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Close<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowContentScaleCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Content<wbr/>Scale<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowFocusCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Focus<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowIcon.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Icon</span></a></li>
+<li><a href="glfwSetWindowIconifyCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Iconify<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowMaximizeCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Maximize<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowMonitor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Monitor</span></a></li>
+<li><a href="glfwSetWindowOpacity.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Opacity</span></a></li>
+<li><a href="glfwSetWindowPos.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Pos</span></a></li>
+<li><a href="glfwSetWindowPosCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Pos<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowRefreshCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Refresh<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowShouldClose.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Should<wbr/>Close</span></a></li>
+<li><a href="glfwSetWindowSize.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Size</span></a></li>
+<li><a href="glfwSetWindowSizeCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Size<wbr/>Callback</span></a></li>
+<li><a href="glfwSetWindowSizeLimits.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Size<wbr/>Limits</span></a></li>
+<li><a href="glfwSetWindowTitle.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>Title</span></a></li>
+<li><a href="glfwSetWindowUserPointer.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Set<wbr/>Window<wbr/>User<wbr/>Pointer</span></a></li>
+<li><a href="glfwShowWindow.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Show<wbr/>Window</span></a></li>
+<li><a href="glfwSwapBuffers.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Swap<wbr/>Buffers</span></a></li>
+<li><a href="glfwSwapInterval.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Swap<wbr/>Interval</span></a></li>
+<li><a href="glfwTerminate.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Terminate</span></a></li>
+<li><a href="glfwUpdateGamepadMappings.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Update<wbr/>Gamepad<wbr/>Mappings</span></a></li>
+<li><a href="glfwVulkanSupported.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Vulkan<wbr/>Supported</span></a></li>
+<li><a href="glfwWaitEvents.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Wait<wbr/>Events</span></a></li>
+<li><a href="glfwWaitEventsTimeout.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Wait<wbr/>Events<wbr/>Timeout</span></a></li>
+<li><a href="glfwWindowHint.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Window<wbr/>Hint</span></a></li>
+<li><a href="glfwWindowHintString.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Window<wbr/>Hint<wbr/>String</span></a></li>
+<li><a href="glfwWindowShouldClose.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>glfw<wbr/>Window<wbr/>Should<wbr/>Close</span></a></li></ul></nav></div></div></div>
+<div class="tsd-generator">
+<p>Generated using <a href="https://typedoc.org/" rel="noopener" target="_blank">TypeDoc</a></p></div>
+<div class="overlay"></div></body></html>
