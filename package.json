@@ -1,6 +1,6 @@
 {
     "name": "glfw-n-api",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "The N-API bindings for GLFW",
     "main": "index.js",
     "devDependencies": {
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Reon90/glfwJS.git"
+        "url": "https://github.com/Natoune/glfwJS.git"
     },
     "keywords": [
         "GLFW",
@@ -21,9 +21,16 @@
         "vulkan"
     ],
     "author": "Artem Kunets",
+    "contributors": [
+        {
+            "name": "Natoune",
+            "email": "contact@natoune.fr",
+            "url": "https://www.natoune.fr/"
+        }
+    ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Reon90/glfwJS/issues"
+        "url": "https://github.com/Natoune/glfwJS/issues"
     },
     "scripts": {
         "run": "node examples/index.js",
