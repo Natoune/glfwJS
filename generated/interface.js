@@ -1,5 +1,4 @@
-const { platform } = process;
-const glfw = require(`../build/${platform}/Release/glfwJS.node`);
+const glfw = require(`../build/Release/glfwJS.node`);
 
 function getMemory(p, l) {
     return glfw.getMemory(p, l);
