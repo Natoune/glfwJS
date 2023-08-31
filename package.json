@@ -1,6 +1,6 @@
 {
     "name": "@natoune/glfw-js",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "The N-API bindings for GLFW",
     "main": "index.js",
     "devDependencies": {
